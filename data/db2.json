@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "this is create newly edited",
+      "datetime": "03-09-2024 ,11:25:34 PM",
+      "body": "try to store db"
+    },
+    {
+      "id": "3",
+      "title": "third",
+      "datetime": "03-09-2024 ,4:40:41 PM",
+      "body": "third Body edited"
+    },
+    {
+      "id": "4",
+      "title": "First",
+      "datetime": "04-09-2024 ,11:16:25 AM",
+      "body": "one"
+    },
+    {
+      "id": "5",
+      "title": "second",
+      "datetime": "03-09-2024 ,11:31:01 PM",
+      "body": "two"
+    },
+    {
+      "id": "7",
+      "title": "this is my project",
+      "datetime": "12-09-2024 ,10:19:36 AM",
+      "body": "hello everyone"
+    }
+  ]
+}

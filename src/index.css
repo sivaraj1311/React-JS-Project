@@ -11,3 +11,484 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* *{
+  text-align: center;
+  text-decoration: none;
+  background-color: aquamarine;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root{
+  flex-grow: 1;
+  display: flex;
+}
+.App1{
+  width:100%;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid rgb(233, 196, 196);
+
+}
+.Header, .Footer{
+  width:100%;
+  background-color: chocolate;
+  padding: 1rem;
+  display: flex;
+
+} */
+
+/* global.css 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.nav {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav form {
+  display: flex;
+  align-items: center;
+}
+
+.nav input {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #fff;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  background: #555;
+}
+.Home {
+  padding: 2rem 0;
+}
+
+.Home p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.NewPost form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.NewPost label {
+  font-weight: bold;
+}
+
+.NewPost input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.NewPost button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.NewPost button:hover {
+  background-color: #555;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin: 0;
+}
+
+.post p {
+  margin: 0.5rem 0;
+}
+
+.post a {
+  color: #333;
+}
+
+.post a:hover {
+  color: #555;
+}
+
+
+.postpage {
+  padding: 2rem;
+}
+
+.postpage article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.postpage button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.postpage button:hover {
+  background-color: #c0392b;
+}
+
+.Header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+
+.Footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+*/
+/* global.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}
+/* Nav.css */
+.nav {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav form {
+  display: flex;
+  align-items: center;
+}
+
+.nav input {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #fff;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  background: #555;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav form {
+    margin-bottom: 1rem;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav li {
+    width: 100%;
+  }
+
+  .nav a {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* Home.css */
+.Home {
+  padding: 2rem 0;
+}
+
+.Home p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .Home p {
+    font-size: 1rem;
+  }
+}
+/* NewPost.css */
+.NewPost form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.NewPost label {
+  font-weight: bold;
+}
+
+.NewPost input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.NewPost button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.NewPost button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .NewPost input,
+  .NewPost button {
+    padding: 0.75rem;
+  }
+}
+/* Post.css */
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin: 0;
+}
+
+.post p {
+  margin: 0.5rem 0;
+}
+
+.post a {
+  color: #333;
+}
+
+.post a:hover {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .post {
+    padding: 0.75rem;
+  }
+}
+/* PostPage.css */
+.postpage {
+  padding: 2rem;
+}
+
+.postpage article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.postpage button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.postpage button:hover {
+  background-color: #c0392b;
+}
+
+@media (max-width: 768px) {
+  .postpage {
+    padding: 1rem;
+  }
+
+  .postpage button {
+    padding: 0.75rem;
+  }
+}
+/* Header.css */
+.Header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  position: static;
+  top: 0px;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    font-size: 1.25rem;
+    padding: 0.75rem;
+  }
+}
+/* Footer.css */
+.Footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  bottom: 0%;
+  width: 100%;
+  /* flex-grow: 1; */
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    padding: 0.75rem;
+  }
+}
+
+
+
+
+
+
+
+
